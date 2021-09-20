@@ -1919,9 +1919,6 @@ p {
 .sec-header {
   padding-top: 10px;
   border-bottom: 1px solid #cdcdc8; }
-  @media all and (max-width: 767px) {
-    .sec-header {
-      padding: 40px 0px; } }
 
 .exam, .course {
   padding: 0 30px;
@@ -1941,7 +1938,7 @@ p {
     z-index: 11;
     filter: invert(1); }
     .banner-slider .slick-next:hover, .banner-slider .slick-next:focus, .banner-slider .slick-prev:hover, .banner-slider .slick-prev:focus {
-      background-color: #f8f8f8; }
+      background-color: #f8f8f8a8; }
   .banner-slider .slick-next {
     right: 25px; }
   .banner-slider .slick-prev {
@@ -2554,15 +2551,19 @@ button:hover {
     position: static;
     margin-top: 15px; }
     .side-ads.sticky .side-menu-inner {
-      height: 150px;
+      height: 130px;
       margin-top: 15px; } }
 
 .ads-img {
-  width: 100%;
-  height: 100%; }
+  width: 100%; }
 
 .ads-img-1 {
   height: 120px; }
+
+.ads-img-2 {
+  max-width: 200px;
+  height: 120px;
+  margin: 5px; }
 
 /*==============================================================
 					MEDIA QUERY

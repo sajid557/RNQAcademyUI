@@ -1584,12 +1584,8 @@ section {
 }
 .sec-header{
     padding-top: 10px;
-    
     border-bottom: 1px solid #cdcdc8;
-    @media all and (max-width:767px){
-    padding: 40px 0px;
 
-    }
 }
 .exam,.course{
     // background: linear-gradient(to left, #3f8830, #46a033);
@@ -1617,7 +1613,7 @@ section {
         }
 
         &:hover,&:focus{
-        background-color: #f8f8f8;
+        background-color: #f8f8f8a8;
 
         }
       }
@@ -2637,17 +2633,22 @@ button:hover {
     position:static;
     margin-top: 15px;
     .side-menu-inner{
-      height:150px;
+      height:130px;
       margin-top:15px;
     }
   }
 }
 .ads-img{
   width: 100%;
-  height:100%;
 }
 .ads-img-1{
 height: 120px;
+}
+.ads-img-2{
+    max-width: 200px;
+    height: 120px;
+  margin: 5px ;
+
 }
 
 
