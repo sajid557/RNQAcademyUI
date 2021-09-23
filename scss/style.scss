@@ -274,6 +274,28 @@ p {
 .text-center{
   text-align: center;
 }
+.content-box{
+  padding: 30px;
+  margin: 15px 0;
+  .item{
+    align-items: center;
+    padding: 15px 0;
+    .img-box{
+      img{
+        width: 100%;
+        height:400px;
+        object-fit: cover;
+        object-position:top;
+      }
+    }
+  }
+
+  @media all and (max-width:900px){
+    .text-box{
+      margin: 15px 0;
+    }
+  }
+}
 
 /* Background Colors */
 
@@ -1679,6 +1701,155 @@ section {
 
 
   // heading param
+  .banner-sec{
+  .cntnt-grp{
+  p{
+  display: none;
+  }
+  }
+  .sec-header{
+    width: 100%;
+    p{
+      color: #ededed;
+      font-size: 24px;
+      @media all and (max-width:1600px){
+        font-size: 22px;
+      }
+      @media all and (max-width:1366px){
+        font-size: 20px;
+      }
+      @media all and (max-width:1200px){
+        font-size: 18px;
+      }
+    }
+  }
+  .banner-text{
+      width: 100%;
+      p{
+        color:#b7b7b7;
+        font-size: 14px;
+      }
+  }
+}
+
+/* Banner Section */
+.banner-sec {
+ 
+
+ 
+
+  position: relative;
+  overflow: hidden;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+
+  }
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    line-height: 1.4;
+  }
+  .container {
+    padding-top: 265px;
+    padding-bottom: 40px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-basis: 100%;
+    position: relative;
+    z-index: 1;
+    .sec-row {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      .bannerclmn {
+        width: 50%;
+        &:first-child {
+          padding-left: 0;
+        }
+        &:nth-child(2n + 2),
+        &:last-child {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+
+  @media all and (max-width: 1600px) {
+    .container {
+      padding-top: 250px;
+    }
+ 
+  }
+ 
+  @media all and (max-width: 1366px) {
+    .container {
+      padding-top: 200px;
+    
+    }
+   
+
+  }
+  @media all and (max-width: 1280px) {
+    .container {
+      padding-top: 220px;
+    }
+  }
+  @media all and (max-width: 1200px) {
+    .container {
+      padding-top: 220px;
+      padding-bottom: 30px;
+    }
+
+  }
+  @media all and (max-width: 900px) {
+  
+
+    .container {
+      display: block;
+      padding-top: 120px;
+ 
+    }
+  }
+  @media all and (max-width: 767px) {
+    .container {
+      padding-top: 140px;
+    }
+  
+  
+  }
+  @media all and (max-width: 600px) {
+    .container {
+      padding-top: 140px;
+    }
+
+ 
+  }
+  @media all and (max-width: 400px) {
+    .container {
+      padding-bottom: 20px;
+    }
+
+  }
+}
 
 .home-banner-sec{
   .cntnt-grp{
@@ -2651,6 +2822,12 @@ height: 120px;
 
 }
 
+
+
+  
+/*==============================================================
+					ABOUT US
+  ==============================================================*/
 
 
 

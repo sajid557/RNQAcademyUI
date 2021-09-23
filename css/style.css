@@ -1027,6 +1027,21 @@ p {
 .text-center {
   text-align: center; }
 
+.content-box {
+  padding: 30px;
+  margin: 15px 0; }
+  .content-box .item {
+    align-items: center;
+    padding: 15px 0; }
+    .content-box .item .img-box img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      object-position: top; }
+  @media all and (max-width: 900px) {
+    .content-box .text-box {
+      margin: 15px 0; } }
+
 /* Background Colors */
 /*================================
 			HEADER
@@ -1984,6 +1999,90 @@ p {
         .slider .slide .slide-inner a.btn:hover {
           background-color: #46a033; }
 
+.banner-sec .cntnt-grp p {
+  display: none; }
+.banner-sec .sec-header {
+  width: 100%; }
+  .banner-sec .sec-header p {
+    color: #ededed;
+    font-size: 24px; }
+    @media all and (max-width: 1600px) {
+      .banner-sec .sec-header p {
+        font-size: 22px; } }
+    @media all and (max-width: 1366px) {
+      .banner-sec .sec-header p {
+        font-size: 20px; } }
+    @media all and (max-width: 1200px) {
+      .banner-sec .sec-header p {
+        font-size: 18px; } }
+.banner-sec .banner-text {
+  width: 100%; }
+  .banner-sec .banner-text p {
+    color: #b7b7b7;
+    font-size: 14px; }
+
+/* Banner Section */
+.banner-sec {
+  position: relative;
+  overflow: hidden; }
+  .banner-sec h2,
+  .banner-sec h3,
+  .banner-sec h4,
+  .banner-sec h5,
+  .banner-sec h6,
+  .banner-sec .h2,
+  .banner-sec .h3,
+  .banner-sec .h4,
+  .banner-sec .h5,
+  .banner-sec .h6 {
+    line-height: 1.4; }
+  .banner-sec .container {
+    padding-top: 265px;
+    padding-bottom: 40px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-basis: 100%;
+    position: relative;
+    z-index: 1; }
+    .banner-sec .container .sec-row {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0; }
+      .banner-sec .container .sec-row .bannerclmn {
+        width: 50%; }
+        .banner-sec .container .sec-row .bannerclmn:first-child {
+          padding-left: 0; }
+        .banner-sec .container .sec-row .bannerclmn:nth-child(2n + 2), .banner-sec .container .sec-row .bannerclmn:last-child {
+          padding-right: 0; }
+  @media all and (max-width: 1600px) {
+    .banner-sec .container {
+      padding-top: 250px; } }
+  @media all and (max-width: 1366px) {
+    .banner-sec .container {
+      padding-top: 200px; } }
+  @media all and (max-width: 1280px) {
+    .banner-sec .container {
+      padding-top: 220px; } }
+  @media all and (max-width: 1200px) {
+    .banner-sec .container {
+      padding-top: 220px;
+      padding-bottom: 30px; } }
+  @media all and (max-width: 900px) {
+    .banner-sec .container {
+      display: block;
+      padding-top: 120px; } }
+  @media all and (max-width: 767px) {
+    .banner-sec .container {
+      padding-top: 140px; } }
+  @media all and (max-width: 600px) {
+    .banner-sec .container {
+      padding-top: 140px; } }
+  @media all and (max-width: 400px) {
+    .banner-sec .container {
+      padding-bottom: 20px; } }
+
 .home-banner-sec .cntnt-grp p {
   display: none; }
 .home-banner-sec .banner-text {
@@ -2565,6 +2664,9 @@ button:hover {
   height: 120px;
   margin: 5px; }
 
+/*==============================================================
+					ABOUT US
+  ==============================================================*/
 /*==============================================================
 					MEDIA QUERY
   ==============================================================*/
