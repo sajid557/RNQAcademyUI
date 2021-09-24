@@ -1461,6 +1461,10 @@ form{
       text-align: left;
       padding-top: 5px;
     }
+     .ft-socialicons{
+  text-align:center !important;
+  margin-top: 12px ;
+ }
   }
   @media (max-width: 767px) {
     .ftnav-grp {
@@ -1497,6 +1501,7 @@ form{
     .ft-midsec {
       background-size: 60px 120px;
     }
+
   }
   @media (max-width: 420px) {
     .callemailus-clmn {
@@ -2037,15 +2042,14 @@ a {
 
 // form section
 .form-section {
-  padding: 150px 0;
-  .form-container {
-        padding-bottom: 90px;
-    border-bottom: 1px solid #cdcdcd;
+  padding: 30px 0;
+  .sec-header {
+    border-bottom: 0;
   }
   
   // form start
   form {
-    padding: 55px 95px;
+    padding: 25px 30px;
     border-radius: 10px;
     background-color: #fff;
     background-image: url(../images/explrdtilslstitm-bgbrdrarrw.png);
@@ -2058,14 +2062,14 @@ a {
     // label
     label {
       display: block;
-      padding-bottom: 8px;
+      padding: 8px 0;
       font-weight: 500;
       span{
         color: red;
       }
     }
     // input
-    input,
+    input,select,
     textarea {
       display: block;
       font-family: "Poppins", arial;
@@ -2086,7 +2090,7 @@ a {
       transition: all 0.3s ease-in-out;
       box-shadow: 0px 0px 2px #848383;
       &:focus {
-        background-color: #d3d2d2;
+        background-color: #fefefe;
       }
     }
     // submit btn
@@ -2095,17 +2099,18 @@ a {
    justify-content:center;
    align-items:center;
     font-size: 16px;
+    font-weight: 500;
     padding: 16px 35px;
     margin-top: 15px;
     border-radius: 50px;
     background-color: transparent;
-    border: 3px solid #00356b;
-    color: #00356b;
+    border: 3px solid #3f8830;
+    color: #333;
     transition: all 0.3s ease-in-out;
     float: right;
     align-items: center;
     &:hover {
-      background-color: #00356b;
+      background-color: #3e7e31;
       color: #fff;
     }
   }
@@ -2213,9 +2218,8 @@ input:checked {
 
   // form section
   .form-section {
-    padding: 100px 0;
         form{
-      padding: 45px 85px;
+      
            .col-5,.col-10{
         margin-bottom:25px;
       }
@@ -2238,7 +2242,7 @@ input:checked {
     // form section
   .form-section{
     form{
-      padding: 40px 85px;
+      
            .col-5,.col-10{
         margin-bottom:20px;
       }
@@ -2264,10 +2268,9 @@ input:checked ~ .accordion-tab-content{
 
   // form section
   .form-section {
-    padding: 80px 0;
    
     .form-container{
-           padding-bottom: 80px;
+         
     }
     
     // form
@@ -2306,7 +2309,7 @@ input:checked ~ .accordion-tab-content{
   .form-section{
   
     form{
-      padding: 25px 60px;
+      
     
     }
   }

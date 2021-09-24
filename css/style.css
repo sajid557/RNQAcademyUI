@@ -1828,7 +1828,10 @@ p {
       margin-top: 20px; }
     .site-footer .designcredit-clmn {
       text-align: left;
-      padding-top: 5px; } }
+      padding-top: 5px; }
+    .site-footer .ft-socialicons {
+      text-align: center !important;
+      margin-top: 12px; } }
   @media (max-width: 767px) {
     .site-footer .ftnav-grp > ul {
       margin-left: 0 !important;
@@ -2203,12 +2206,11 @@ a {
       padding: 0px; } }
 
 .form-section {
-  padding: 150px 0; }
-  .form-section .form-container {
-    padding-bottom: 90px;
-    border-bottom: 1px solid #cdcdcd; }
+  padding: 30px 0; }
+  .form-section .sec-header {
+    border-bottom: 0; }
   .form-section form {
-    padding: 55px 95px;
+    padding: 25px 30px;
     border-radius: 10px;
     background-color: #fff;
     background-image: url(../images/explrdtilslstitm-bgbrdrarrw.png);
@@ -2219,11 +2221,11 @@ a {
     position: relative; }
     .form-section form label {
       display: block;
-      padding-bottom: 8px;
+      padding: 8px 0;
       font-weight: 500; }
       .form-section form label span {
         color: red; }
-    .form-section form input,
+    .form-section form input, .form-section form select,
     .form-section form textarea {
       display: block;
       font-family: "Poppins", arial;
@@ -2243,25 +2245,26 @@ a {
       overflow: hidden;
       transition: all 0.3s ease-in-out;
       box-shadow: 0px 0px 2px #848383; }
-      .form-section form input:focus,
+      .form-section form input:focus, .form-section form select:focus,
       .form-section form textarea:focus {
-        background-color: #d3d2d2; }
+        background-color: #fefefe; }
     .form-section form .submit-btn {
       display: flex;
       justify-content: center;
       align-items: center;
       font-size: 16px;
+      font-weight: 500;
       padding: 16px 35px;
       margin-top: 15px;
       border-radius: 50px;
       background-color: transparent;
-      border: 3px solid #00356b;
-      color: #00356b;
+      border: 3px solid #3f8830;
+      color: #333;
       transition: all 0.3s ease-in-out;
       float: right;
       align-items: center; }
       .form-section form .submit-btn:hover {
-        background-color: #00356b;
+        background-color: #3e7e31;
         color: #fff; }
     .form-section form .col-5,
     .form-section form .col-10 {
@@ -2323,48 +2326,35 @@ input[type="checkbox"] {
         line-height: 1.1; }
 
 @media all and (max-width: 1600px) {
-  .form-section {
-    padding: 100px 0; }
-    .form-section form {
-      padding: 45px 85px; }
-      .form-section form .col-5, .form-section form .col-10 {
-        margin-bottom: 25px; }
-    .form-section .contact-method-container {
-      padding-bottom: 250px; }
+  .form-section form .col-5, .form-section form .col-10 {
+    margin-bottom: 25px; }
+  .form-section .contact-method-container {
+    padding-bottom: 250px; }
 
   .accordion-tabs {
     padding-top: 60px; } }
 @media all and (max-width: 1441px) {
-  .form-section form {
-    padding: 40px 85px; }
-    .form-section form .col-5, .form-section form .col-10 {
-      margin-bottom: 20px; }
-    .form-section form input, .form-section form textarea {
-      padding: 12px 20px; }
-    .form-section form .submit-btn {
-      padding: 13px 25px; }
+  .form-section form .col-5, .form-section form .col-10 {
+    margin-bottom: 20px; }
+  .form-section form input, .form-section form textarea {
+    padding: 12px 20px; }
+  .form-section form .submit-btn {
+    padding: 13px 25px; }
 
   input:checked ~ .accordion-tab-content {
     padding-left: 65px; } }
 @media all and (max-width: 1366px) {
-  .form-section {
-    padding: 80px 0; }
-    .form-section .form-container {
-      padding-bottom: 80px; }
-    .form-section form {
-      padding: 35px 85px; }
-      .form-section form .col-5,
-      .form-section form .col-10 {
-        margin-bottom: 15px; }
-      .form-section form .submit-btn {
-        margin-top: 8px;
-        padding: 8px 20px; }
+  .form-section form {
+    padding: 35px 85px; }
+    .form-section form .col-5,
+    .form-section form .col-10 {
+      margin-bottom: 15px; }
+    .form-section form .submit-btn {
+      margin-top: 8px;
+      padding: 8px 20px; }
 
   .accordion-tabs {
     padding-top: 60px; } }
-@media all and (max-width: 1200px) {
-  .form-section form {
-    padding: 25px 60px; } }
 @media all and (max-width: 1024px) {
   .form-section form .col-5,
   .form-section form .col-10 {
